@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Bell Program</title>
+		<link href="index.css" rel="stylesheet">
+	</head>
+	<body onload="mttfDay();clock();displaySong();">
+		<div id="day">	
+			<button id="mttf" onclick="notclicked();clicked(this)">MTTF</button>
+			<button id="ai" onclick="notclicked();clicked(this)">Wednesday</button>
+			<button id="latestart" onclick="notclicked();clicked(this)">Late Start</button>
+			<button id="halfday" onclick="notclicked();clicked(this)">Half Day</button>
+		</div>
+		<table>
+			<tr>
+				<td id="hour"></td>
+				<td id="minute"></td>
+				<td id="second"></td>
+			</tr>
+		</table>
+		<br>
+		<audio id="currentSong" controls src="">
+		</audio>
+		<p id="songName">Current Song: <span id="name"></span></p>
+		<script src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	background-image:url("https://images4.alphacoders.com/158/158838.jpg");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+input:focus {
+    outline:none;
+}
+table{
+	border: 2px solid white;
+	border-radius:5px;
+	width:400px;
+	height:150px;
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+	background-color:rgba(0, 0, 0, 0.7);
+}
+td{
+	text-align:center;
+	font-family:helvetica;
+	font-size:70px;
+	width:150px;
+	color:white;
+}
+#hour{
+	border-right:2px solid white;
+}
+#minute{
+	border-right:2px solid white;
+}
+#currentSong{
+	margin-top:26%;
+	margin-left:36.2%;
+	width:400px;
+}
+#songName{
+	text-align:center;
+	font-family:helvetica;
+	color:white;
+}
+#name{
+	font-family:helvetica;
+	color:white;
+	font-weight:bold;
+}
+#mttf{
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-top:3px;
+	border:1px solid white;
+	width:80px;
+	height:40px;
+	color:white;
+}
+#ai{
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-top:3px;
+	border:1px solid;
+	border-color:rgba(0, 0, 0, 0.7);
+	width:80px;
+	height:40px;
+	color:white;
+}
+#latestart{
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-top:3px;
+	border:1px solid;
+	border-color:rgba(0, 0, 0, 0.7);
+	width:80px;
+	height:40px;
+	color:white;
+}
+#halfday{
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-top:3px;
+	border:1px solid;
+	border-color:rgba(0, 0, 0, 0.7);
+	width:80px;
+	height:40px;
+	color:white;
+}
+#mttf:hover{
+	border-color:white !important;
+}
+#ai:hover{
+	border-color:white !important;
+}
+#latestart:hover{
+	border-color:white !important;
+}
+#halfday:hover{
+	border-color:white !important;
+}
+button:focus
+{
+  outline:none;
+}  
