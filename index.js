@@ -51,7 +51,7 @@ function clock(){
 	if(minute <10){
 		document.getElementById("minute").innerHTML="0"+minute;
 	}
-	if(minute>10){
+	if(minute>=10){
 		document.getElementById("minute").innerHTML=minute;
 	}
 	if(hour>12){
@@ -77,10 +77,6 @@ function work(){
 function bellonly(){
 	bell.play();
 	setTimeout("playbell()",240000);
-}
-function bellonlyfive(){
-	bell.play();
-	setTimeout("secondbell()",300000);
 }
 function belly(){
 	setTimeout("work()",4500);
